@@ -1,100 +1,54 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: white;
-  background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
 .container {
-  max-width: 50rem;
-  margin: 2rem auto;
-  padding: 0px 2rem;
-  border: 1px solid;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.main-heading {
-  font-size: 4rem;
-  margin: 2rem 0rem 1rem;
-  color: white;
-  text-align: center;
+h1 {
+    text-align: center;
 }
 
-/* form section */
-.form-class {
-  margin: 2rem 0px;
+form div {
+    margin-bottom: 15px;
 }
 
-.form-control {
-  display: flex;
-  flex-direction: column;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-.heading-field {
-  margin: 1rem 0px 0.6rem;
-}
-
-.field-head {
-  font-size: 2rem;
-}
-
-.input-div {
-  margin-bottom: 1rem;
-}
-
-.field-inputs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-}
-
-.form-control-input {
-  font-size: 1.5rem;
-  padding: 0.4rem 0px;
-  text-indent: 0.5rem;
-  border: none;
-  outline: 1px solid #999;
-  border-radius: 7px;
-  width: 100%;
-  color: #999;
-}
-option {
-  color: #999;
-}
-.radio {
-  outline: none;
-}
-
-.form-control-input:focus {
-  color: #212529;
-  background-color: #fff;
-  border-color: #86b7fe;
-  outline: 0;
-  box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
-}
-
-.help-text {
-  font-size: 0.7rem;
-  margin-top: 0.4rem;
-  padding: 0.1rem;
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
 }
 
 button {
-  font-size: 2rem;
-  margin: 0px auto;
-  display: block;
-  color: wite;
-  padding: 0.5rem 0.8rem;
-  border: 1px solid white;
-  background-color: #023de3;
-  color: white;
-  border-radius: 10px;
-  box-shadow: 1px #0000;
-  box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-/* form section ends */
+button:hover {
+    background-color: #0056b3;
+}
+
+#resumePreview {
+    margin-top: 20px;
+   
+}
